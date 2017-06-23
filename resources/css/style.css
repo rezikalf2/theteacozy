@@ -1,0 +1,137 @@
+/* body */
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0,9;
+
+}
+
+/* header */
+.header{
+  opacity: 0.9;
+  display: flex;
+  height: 69px;
+  background-color: black;
+  z-index: 5;
+  position: fixed;
+  width: 100%;
+
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_photo{
+  margin-left: 10px;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+nav{
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 10px;
+}
+
+span{
+  text-decoration: underline;
+  margin-left: 20px;
+
+}
+/*container*/
+.container{
+  position: relative;
+  top: 69px;
+  display: flex;
+  opacity: 0.9;
+  flex-basis: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Mission*/
+.mission{
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  align-content: center;
+  justify-content: center;
+}
+.mission_stat{
+  text-align: center;
+  width: auto;
+  background-color: black;
+}
+.featured_tea{
+  text-align: center;
+}
+.first_row{
+  flex-direction: row;
+  display: inline-flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+.featured_tea img{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.featured_tea h4{
+  margin-top: 0px;
+}
+.first, .second, .third, .fourth, .fifth{
+}
+.second_row{
+  display: inline-flex;
+}
+.fifth{
+  margin-left: 50px;
+}
+
+.locations_background{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  align-items: center;
+  justify-content: center;
+}
+.loc_title{
+
+}
+.locations{
+  display: inline-flex;
+}
+
+.loc_title h2{
+margin-bottom: 15px;
+
+}
+.loc_second, .loc_third{
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin-left: 40px;
+  opacity: 1;
+
+}
+.loc_first{
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  opacity: 1;
+
+}
+.contact{
+  height: 200px;
+}
+#copyright{
+  text-align: left;
+  margin-left: 20px;
+}
